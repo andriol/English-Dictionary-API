@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dictionary API</title>
+  </head>
+  <body>
+    <section class="section-center">
+      <h3>English Dictionary APi</h3>
+      <form class="dictionary-form">
+        <label for="text">Word:</label>
+        <input
+          type="text"
+          name="text"
+          id="text"
+          autocomplete="off"
+          placeholder="write your word..."
+        />
+        <button type="submit" class="btn">Translate</button>
+      </form>
+      <article class="dictionary-text"></article>
+      <div id="audio"></div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
